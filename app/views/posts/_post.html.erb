@@ -1,0 +1,7 @@
+<h2> <%= @post.title %> </h2>
+ <small>Posted by <%= @post.name %> on 
+ 	<%= @post.created_at.strftime("%e %B %Y") %></small>
+<hr>
+ <div class="well">
+  <%= @post.content %>
+ </div>
